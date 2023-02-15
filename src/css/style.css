@@ -1,6 +1,10 @@
 body {
     font-family: 'Outfit';
     background-color: hsl(212, 45%, 89%);
+    max-width: 1440px;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    height: 100vh;
 }
 
 .qr-code {
@@ -16,8 +20,9 @@ body {
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    margin: 85% 34%;
+    margin: 85% 41%;
     border-radius: 25px;
+    height: auto;
 }
 
 .description {
@@ -42,5 +47,6 @@ p {
 
 .attribution {
     font-size: 11px; text-align: center;
-    color: hsl(228, 45%, 44%)
+    color: hsl(228, 45%, 44%);
+    flex-direction: column;
 }
